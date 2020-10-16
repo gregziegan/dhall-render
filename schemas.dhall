@@ -1,6 +1,6 @@
 let Format = < YAML | JSON | Raw >
 
-let Install = < Symlink | Write | None >
+let Install = < Symlink | Write | Append | None >
 
 let Options =
       { Type = { destination : Text }, default.destination = "generated" }
